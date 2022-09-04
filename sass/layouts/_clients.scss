@@ -1,0 +1,50 @@
+.clients {
+    padding-top: 94px;
+    padding-right: auto;
+    padding-bottom: 94px;
+    padding-left: auto;
+    background-color: $contrastColor;
+
+    .clients__title {
+    margin-bottom: 50px;
+    color: $mainTitleColor;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    }
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+    &__link {
+    width: 170px;
+    height:92px;
+    border: 1px solid #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover, &:focus {
+        border: 1px solid $accentColor;  
+        }
+    }
+    &__icon {
+    fill: currentColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        .cards-list__link:hover &,
+        .cards-list__link:focus & {
+        fill: $accentColor;
+        }
+    }
+}
+
+

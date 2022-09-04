@@ -1,0 +1,86 @@
+.team {
+    padding-top: 94px;
+    padding-right: auto;
+    padding-bottom: 94px;
+    padding-left: auto;
+    background-color: $backgroundAdditional;
+
+    &__title {
+        color: $mainTitleColor;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+    }
+}
+
+.cards-set {
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+    background-color: $contrastColor;
+    width: 270px;
+    box-shadow: 0 4px 4px 0
+    rgba(0, 0, 0, 0.25);
+
+        &:not(:last-child) {
+        margin-right: 30px;
+        }
+    }
+    &__content {
+    padding-top: 30px;
+    padding-right: auto;
+    padding-bottom: 30px;
+    padding-right: auto;
+    }
+
+    &__title {
+    margin-bottom: 10px;
+    color: $mainTitleColor;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    }
+    &__text {
+    color: $mainColor;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+    }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    &__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $contrastColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover, &:focus {
+        background-color: $accentColor;
+        }
+    }
+
+    &__icon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        .social-icons__link:hover &, .social-icons__link:focus & {
+        fill: $contrastColor;
+        }
+    }
+
+}

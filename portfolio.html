@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="navigation">
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a href="" class="logo header__logo link"
+                ><span class="logo--accent">Web</span>Studio</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link link">Студія</a>
+            </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link current">Портфоліо</a>
+            </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts__list list">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link link"
+              ><svg class="contacts__icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link link"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="filters">
+        <div class="container filters__container">
+          <h1 class="filters__title visually-hidden">Our projects</h1>
+          <ul class="site-nav list">
+            <li class="site-nav__item">
+              <button class="site-nav__btn" type="button">Все</button>
+            </li>
+            <li class="site-nav__item">
+              <button class="site-nav__btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="site-nav__item">
+              <button class="site-nav__btn" type="button">Додатки</button>
+            </li>
+            <li class="site-nav__item">
+              <button class="site-nav__btn" type="button">Дизайн</button>
+            </li>
+            <li class="site-nav__item">
+              <button class="site-nav__btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="product-cards list">
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/technokriak.jpg"
+                    alt="веб-сайт"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 class="product-cards__title">Технокряк</h2>
+                  <p class="product-cards__type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/new-orlean.jpg"
+                    alt="баскетбол постер"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="product-cards__type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/seafood.jpg"
+                    alt="емблема ресторану морепродуктів"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 class="product-cards__title">Ресторан Seafood</h2>
+                  <p class="product-cards__type">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/prime.jpg"
+                    alt="навушники"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">Проєкт Prime</h2>
+                  <p class="product-cards__type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/boxes.jpg"
+                    alt="коробки"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">Проєкт Boxes</h2>
+                  <p class="product-cards__type">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/inspiration.jpg"
+                    alt="екран комп'ютера"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="product-cards__type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/limited-edition.jpg"
+                    alt="відкритий журнал"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">
+                    Видання Limited Edition
+                  </h2>
+                  <p class="product-cards__type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/lab.jpg"
+                    alt="етикетка"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 class="product-cards__title">Проект LAB</h2>
+                  <p class="product-cards__type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="product-cards__item">
+              <a class="product-cards__link link" href="">
+                <div class="product-cards__image">
+                  <img
+                    src="./images/growing-bussines.jpg"
+                    alt="ноутбук"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="product-cards__overlay">
+                    <p class="product-cards__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo, eum.
+                    </p>
+                  </div>
+                </div>
+                <div class="product-cards__description">
+                  <h2 lang="en" class="product-cards__title">
+                    Growing Business
+                  </h2>
+                  <p class="product-cards__type">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="address-wrap">
+          <a href="" class="logo footer__logo link"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
+          <address class="address">
+            <ul class="address__list list">
+              <li class="address__item">
+                <a
+                  href="https://goo.gl/maps/ePNzgXtJ5XjrzMhz8"
+                  class="address__link link"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address__contacts link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address__contacts link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-contacts">
+          <p class="footer-contacts__title">приєднуйтесь</p>
+          <ul class="soc-media list">
+            <li class="soc-media__item">
+              <a href="" class="soc-media__link link">
+                <svg class="soc-media__icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-media__item">
+              <a href="" class="soc-media__link link">
+                <svg class="soc-media__icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-media__item">
+              <a href="" class="soc-media__link link">
+                <svg class="soc-media__icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-media__item">
+              <a href="" class="soc-media__link link">
+                <svg class="soc-media__icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe-form">
+          <b class="subscribe-form__title">підпишіться на розсилку</b>
+          <div class="subscribe-form__content">
+            <label class="subscribe-form__label">
+              <input
+                class="subscribe-form__input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button subscribe-form__btn" type="submit">
+              <span class="subscribe-form__text">Підписатися</span>
+              <svg class="subscribe-form__icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
